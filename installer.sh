@@ -14,7 +14,7 @@ if [ "$PYVER" = "2" ]; then
     URL="$BASE/enigma2-plugin-extensions-kadostream_1.0.0-r16-py2fix3_all.ipk"
 elif [ "$PYVER" = "3" ]; then
     echo "Python 3 detected"
-    URL="$BASE/enigma2-plugin-extensions-kadostream_1.0.0-r16_all.ipk"
+   URL="$BASE/enigma2-plugin-extensions-kadostream_1.0.0-r16-py3fix2_all.ipk"
 else
     echo "ERROR: Python 2 or Python 3 was not detected."
     exit 1
